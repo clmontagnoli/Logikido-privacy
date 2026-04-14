@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logikido — Política de Privacidade / Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #f8f9fa;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    header {
+      text-align: center;
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid #dee2e6;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #212529;
+    }
+    header p {
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    .lang-switch button {
+      padding: 0.4rem 1.2rem;
+      border: 1px solid #adb5bd;
+      border-radius: 6px;
+      background: #fff;
+      color: #495057;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .lang-switch button.active {
+      background: #212529;
+      color: #fff;
+      border-color: #212529;
+    }
+    .lang-switch button:hover:not(.active) {
+      background: #e9ecef;
+    }
+    section { display: none; }
+    section.active { display: block; }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #212529;
+      margin: 2rem 0 0.5rem;
+    }
+    h2:first-child { margin-top: 0; }
+    p { margin-bottom: 0.75rem; color: #343a40; }
+    footer {
+      text-align: center;
+      padding-top: 2rem;
+      margin-top: 3rem;
+      border-top: 1px solid #dee2e6;
+      font-size: 0.8rem;
+      color: #868e96;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Logikido</h1>
+      <p id="subtitle">Política de Privacidade</p>
+    </header>
+
+    <div class="lang-switch">
+      <button id="btn-pt" class="active" onclick="switchLang('pt')">Português</button>
+      <button id="btn-en" onclick="switchLang('en')">English</button>
+    </div>
+
+    <!-- Português -->
+    <section id="pt" class="active">
+      <h2>Introdução</h2>
+      <p>O Logikido é um aplicativo educacional de lógica. Sua privacidade é importante para nós. Esta política descreve como tratamos as informações dos usuários.</p>
+
+      <h2>Coleta de dados</h2>
+      <p>O Logikido <strong>não coleta, armazena nem transmite</strong> nenhum dado pessoal. O aplicativo funciona inteiramente no seu dispositivo, sem necessidade de conta, login ou conexão com a internet para o uso das funcionalidades principais.</p>
+
+      <h2>Compras</h2>
+      <p>Eventuais compras dentro do aplicativo são processadas exclusivamente pelo <strong>Google Play</strong>. Não temos acesso a informações de pagamento. Para detalhes sobre como o Google trata seus dados, consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</p>
+
+      <h2>Dados de análise e publicidade</h2>
+      <p>O Logikido não utiliza ferramentas de análise (analytics), rastreamento ou publicidade de terceiros.</p>
+
+      <h2>Dados de crianças</h2>
+      <p>Por não coletar nenhum dado, o aplicativo está em conformidade com as leis de proteção à privacidade de crianças, incluindo a LGPD e o COPPA.</p>
+
+      <h2>Alterações nesta política</h2>
+      <p>Caso esta política seja atualizada, a nova versão será publicada nesta página com a data de vigência revisada.</p>
+
+      <h2>Contato</h2>
+      <p>Se tiver dúvidas sobre esta política, entre em contato pelo e-mail: <strong>logikidoapp@gmail.com</strong></p>
+    </section>
+
+    <!-- English -->
+    <section id="en">
+      <h2>Introduction</h2>
+      <p>Logikido is an educational logic app. Your privacy is important to us. This policy describes how we handle user information.</p>
+
+      <h2>Data collection</h2>
+      <p>Logikido <strong>does not collect, store, or transmit</strong> any personal data. The app runs entirely on your device and requires no account, login, or internet connection for its core features.</p>
+
+      <h2>Purchases</h2>
+      <p>Any in-app purchases are processed exclusively by <strong>Google Play</strong>. We do not have access to payment information. For details on how Google handles your data, please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+      <h2>Analytics and advertising</h2>
+      <p>Logikido does not use any third-party analytics, tracking, or advertising tools.</p>
+
+      <h2>Children's privacy</h2>
+      <p>Because the app does not collect any data, it complies with children's privacy protection laws, including COPPA and LGPD.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy is updated, the new version will be posted on this page with a revised effective date.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this policy, please contact us at: <strong>logikidoapp@gmail.com</strong></p>
+    </section>
+
+    <footer>
+      <p>Logikido &copy; 2025–2026</p>
+      <p id="effective-date">Vigência: 14 de abril de 2026</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      document.getElementById('btn-' + lang).classList.add('active');
+
+      const subtitle = document.getElementById('subtitle');
+      const effectiveDate = document.getElementById('effective-date');
+
+      if (lang === 'en') {
+        subtitle.textContent = 'Privacy Policy';
+        effectiveDate.textContent = 'Effective: April 14, 2026';
+        document.documentElement.lang = 'en';
+      } else {
+        subtitle.textContent = 'Política de Privacidade';
+        effectiveDate.textContent = 'Vigência: 14 de abril de 2026';
+        document.documentElement.lang = 'pt-BR';
+      }
+    }
+  </script>
+</body>
+</html>
